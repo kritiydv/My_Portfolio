@@ -4,7 +4,9 @@ import Logo1 from '../assets/AimSoft.png'
 
 const Experience = () => {
   return (
-    <div id="Experience" className="text-white flex flex-wrap md:flex-nowrap bg-black shadow-xl mx-0 md:mx-10 bg-opacity-30 rounded-lg p-12">
+    <>
+    <section id="Experience">
+    <div  className="text-white flex flex-wrap md:flex-nowrap bg-black shadow-xl mx-0 md:mx-10 bg-opacity-30 rounded-lg p-12">
     {/* Left Side: Experience Details */}
     <div className="w-full md:w-2/3 pl-10 flex flex-col justify-center">
       <h2 className="text-2xl md:text-4xl font-bold">Experience</h2>
@@ -29,6 +31,8 @@ const Experience = () => {
       <img className="h-10 md:h-14" src={Logo1} alt="Company Logo" />
     </div>
   </div>
+  </section>
+   </>
   
       )
     }

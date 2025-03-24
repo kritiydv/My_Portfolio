@@ -4,7 +4,9 @@ import { IoArrowForward } from "react-icons/io5"
 
 const Education = () => {
   return (
-    <div id="Education" className="text-white flex flex-wrap md:flex-nowrap bg-black shadow-xl mx-0 md:mx-10 bg-opacity-30 rounded-lg p-12">
+    <>
+    <section id="Education">
+    <div  className="text-white flex flex-wrap md:flex-nowrap bg-black shadow-xl mx-0 md:mx-10 bg-opacity-30 rounded-lg p-12">
       
       {/* Left Side: Image */}
       <div className="w-full md:w-1/3 flex justify-center items-center">
@@ -32,6 +34,8 @@ const Education = () => {
         </ul>
       </div>
     </div>
+   </section>
+    </>
   )
 }
 
